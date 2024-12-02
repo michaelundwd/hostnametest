@@ -1,6 +1,9 @@
 #!/bin/sh
 # entrypoint.sh
-# runs the backup script in the host that copies the backup schedule to the container at startup and runs crond
+# runs the test script
+
+ENV HOST_HOSTNAME = ''
+
 echo The container is called $hostname
-echo The host is called $host_hostname
+echo The host is called $HOST_HOSTNAME
 #
